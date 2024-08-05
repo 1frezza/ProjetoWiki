@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    flex: 1;
+}
+
+header {
+    background-color: #242c3c;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #69ad53;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #98EFDC;
+    transition: .2s;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.about {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.about h2 {
+    color: #242c3c;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+.about p span a  {
+    color: #0861FF;
+    text-decoration: none;
+}
+
+.about p span a:hover  {
+    color: #0645b2;
+    transition: .2s;
+}
+
+.profile-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.img_habilidades {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.img_habilidades h1 {
+    color: #242c3c;
+    margin-bottom: 20px;
+}
+
+.img_habilidades ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.img_habilidades ul li {
+    margin: 0;
+}
+
+.img_habilidades ul li img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+footer {
+    background-color: #242c3c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.social {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social a {
+    color: #242c3c;
+    font-size: 24px;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social a:hover {
+    color: #0645b2;
+}
+
+.social i {
+    display: inline-block;
+}
